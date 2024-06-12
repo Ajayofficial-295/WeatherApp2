@@ -1,35 +1,3 @@
-// import React, { useState,} from 'react';
-// import './Weather.css'; // Import your CSS file
-// import axios from 'axios'
-
-
-
-// const WeatherApp = () => { 
-//   const [weather, setWeather] = useState(null);
-//   const [city, setCity] = useState(null);
-
-//   const handleSubmit  = async  ( ) =>{
-//     await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=815756920b17df0834b4a228de35b6a1`)
-//     .then(( res)=> {
-//         setWeather(res.data)
-
-//     })
-//   };
-//   return (
-
-//     <div className='Box'>   
-//       <div className="Hero-second">
-//          <input type='search' name='city' onChange={(event)=> setCity(event.target.value)}></input>
-//          <button onClick={handleSubmit}>search</button>
-//          {weather ? <h1>{(weather.main.temp - 273).toFixed(2)} °C</h1>: <h1>No data found</h1>}
-        
-//      </div>
-//      </div>
-   
-//   );
-// };
-
-// export default WeatherApp;
 
 import React, { useState } from 'react';
 import './Weather.css'; // Import your CSS file
