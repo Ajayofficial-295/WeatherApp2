@@ -1,0 +1,94 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  /* Main app container */
+  .app {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Input and search button styling */
+  .input-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .input-wrapper input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  
+  .input-wrapper button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    font-size: 16px;
+  }
+  
+  .input-wrapper button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Content section styling */
+  .content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .location {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .datetext {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .weatherdesc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .weatherdesc img {
+    width: 100px;
+    margin-right: 20px;
+  }
+  
+  .tempstats {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .windstats {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  h1, h2, h3, h4 {
+    margin: 0;
+  }
+  
